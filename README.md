@@ -9,7 +9,10 @@ The goal of this project is to code the official [Sprite](https://www.coca-cola.
 
 I used the original Sprite website seen below to code my own version of it. I worked on this project from top to bottom, focusing on placing and styling each section as closely to the original as possible before moving onto the next section.
 
+**Original Website:**
 ![Sprite website home page](references/og-website.png)
+
+**My Website:** //TODO: ADD MY WEBSITE IMAGE
 
 ## Lessons Learned:
 
