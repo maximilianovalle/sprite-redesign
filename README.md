@@ -15,3 +15,4 @@ The goal of this project is to redesign and code the Sprite website (https://www
 // 1. Find inspiration to work off of
 // 2. Create gradient background
 // 3. Make images change with hover
+// 4. Add icon to tab

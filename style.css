@@ -38,10 +38,11 @@ li:hover {
     border-bottom: solid 2px #008b47;
 }
 
-/* HEADER */
+/* HEADER ----------------------------- */
 
 .header {
     background-color: #ffff;
+    box-shadow: 0px 2px 5px #6bbb4a;
 }
 
 .headerInt {
