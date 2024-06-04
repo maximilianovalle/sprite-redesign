@@ -7,7 +7,7 @@ The goal of this project is to code the official [Sprite](https://www.coca-cola.
 
 **Tech Used:** HTML, CSS
 
-I used the original Sprite website seen below to code my own version of it. I worked on this project from top to bottom, focusing on placing and styling each section as closely to the original as possible before moving onto the next section.
+I used the original Sprite website to code my own version of it. I worked on this project from top to bottom, focusing on placing and styling each section as closely to the original as possible before moving onto the next section.
 
 ## Lessons Learned:
 
