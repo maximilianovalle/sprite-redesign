@@ -66,11 +66,18 @@ li:hover {
     font-weight: bold;
 }
 
+.hLink {
+    font-weight: 700px;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
 .profileImage {
     width: 24px;
     height: 24px;
     align-self: center;
     padding-bottom: 4px;
+    margin-top: 4px;
 
     background-image: url(images/profile-icon.png);
     background-repeat: no-repeat;
