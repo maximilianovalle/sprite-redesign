@@ -117,9 +117,10 @@ ul {
 }
 
 .subLinksLinks {
-    padding: 4px 12px;
-    margin: 24px;
-    border-radius: 8px;
+    padding: 4px 24px;
+    margin-top: 28px;
+    margin-bottom: 0px;
+    border-radius: 20px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0px 0px 4px 2px #008b47;
@@ -148,6 +149,47 @@ ul {
 
 .ytVideo {
     border: none;
-    border-radius: 8px;
-    box-shadow: 0px 0px 4px 2px #008b47;
+    border-radius: 20px;
+    margin-top: 56px;
+    /* box-shadow: 0px 0px 4px 2px #008b47; */
+}
+
+/* STAY IN THE KNOW ----------------------------- */
+
+.knowInt {
+    width: 1120px;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 2px #6bbb4a;
+    /* flexbox */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.knowText {
+    color: rgba(0, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.knowButton {
+    margin-right: 100px;
+    width: 300px;
+    height: 40px;
+    color: rgba(0, 0, 0);
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 20px;
+}
+
+.knowButton:hover {
+    background-color: #6bbb4a;
+    border: #6bbb4a;
+    color: #fff;
 }

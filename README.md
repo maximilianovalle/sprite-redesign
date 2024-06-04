@@ -1,5 +1,5 @@
 # sprite-redesign
-The goal of this project is to redesign and code the Sprite website (https://www.coca-cola.com/us/en/brands/sprite).
+The goal of this project is to code the Sprite website from scratch with some minor tweaks (https://www.coca-cola.com/us/en/brands/sprite).
 
 **Link to Project:** https://maximilianovalle.github.io/sprite-redesign/
 
