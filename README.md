@@ -15,7 +15,7 @@ I learned a lot of things from working on this project, the main one being how t
 
 I had a lot of fun working on this website! I still have so much left to learn and there are so many things I wanted to do that I just could not figure out (making the gradient background responsive to the mouse, adding the rotating drop down arrows to the header links, changing the Youtube video play button, etc.) but I know in time these are things I'll be able to come back and do.
 
-**Original Website:**
+## Original Website:
 ![Sprite website home page](references/og-website.png)
 
-**My Website:** //TODO: ADD MY WEBSITE IMAGE
+## My Website: //TODO: ADD MY WEBSITE IMAGE
