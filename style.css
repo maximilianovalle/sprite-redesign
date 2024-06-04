@@ -198,6 +198,8 @@ ul {
 }
 
 .whatsNewTitle{
+    margin: 0px;
+    padding: 0px;
     color: #fff;
     font-size: 40px;
     font-weight: bold;
