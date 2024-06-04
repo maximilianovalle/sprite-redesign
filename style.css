@@ -5,13 +5,22 @@
 body {
     background: #008b47;
     background: radial-gradient(circle, #008b47 0%, #6bbb4a 100%);
+    box-sizing: border-box;
     margin: 0px;
-    /* box-sizing: border-box; */
+
+    font-family: 'Noto-regional', 'Noto-latin', TCCC-UnityText, sans-serif;
 }
 
 .interior {
     max-width: 1200px;
     margin: 0px auto;
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
     /* flexbox */
     display: flex;
 }
@@ -22,7 +31,22 @@ body {
     background-color: #ffff;
 }
 
+.headerInt {
+    height: 72px;
+}
+
 .companyLogo {
-    height: auto;
-    max-width: 125px;
+    height: 20px;
+    width: auto;
+    align-self: center;
+}
+
+.headerLinks {
+    align-self: center;
+}
+
+.profileIcon {
+    height: 24px;
+    width: auto;
+    align-self: center;
 }
