@@ -25,20 +25,6 @@ ul {
     display: flex;
 }
 
-li {
-    padding: 4px;
-    margin-left: 20px;
-    margin-right: 20px;
-    /* flexbox */
-    display: flex;
-}
-
-li:hover {
-    color: #008b47;
-    padding-bottom: 2px;
-    border-bottom: solid 2px #008b47;
-}
-
 /* HEADER ----------------------------- */
 
 .header {
@@ -73,6 +59,16 @@ li:hover {
     font-weight: 700px;
     font-size: 14px;
     letter-spacing: 0;
+
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hLink:hover {
+    color: #008b47;
+    padding-bottom: 2px;
+    border-bottom: solid 2px #008b47;
 }
 
 .profileImage {
@@ -112,4 +108,33 @@ li:hover {
     margin: 8px 0px;
 
     align-self: center;
+}
+
+/* SUBLINKS ----------------------------- */
+
+.subLinksInt {
+    justify-content: center;
+}
+
+.subLinksLinks {
+    padding: 4px 12px;
+    margin: 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sLLink {
+    font-weight: 700px;
+    font-size: 14px;
+    letter-spacing: 0;
+
+    padding: 4px 0px;
+    color: #ffff;
+    margin: 16px;
+}
+
+.sLLink:hover {
+    padding-bottom: 2px;
+    border-bottom: solid 2px #ffff;
 }
