@@ -1,7 +1,7 @@
 # sprite-redesign
 The goal of this project is to redesign and code the Sprite website (https://www.coca-cola.com/us/en/brands/sprite).
 
-**Link to Project:** [// TODO: ADD LINK](https://maximilianovalle.github.io/sprite-redesign/)
+**Link to Project:** https://maximilianovalle.github.io/sprite-redesign/
 
 ## How It's Made
 
