@@ -1,7 +1,28 @@
+/* for space on side of website: */
+/* max-width: 1200px; */
+/* margin: 0px auto; */
+
 body {
-    background: #6bb64a;
-    /* background-image: -webkit-linear-gradient(#6bb64A, #008b47); */
-    box-sizing: border-box;
-    /* max-width: 1200px; */
-    /* margin: 0px auto; */
+    background: #008b47;
+    background: radial-gradient(circle, #008b47 0%, #6bbb4a 100%);
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+
+.interior {
+    max-width: 1200px;
+    margin: 0px auto;
+    /* flexbox */
+    display: flex;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #ffff;
+}
+
+.companyLogo {
+    height: auto;
+    max-width: 125px;
 }

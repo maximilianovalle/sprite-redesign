@@ -12,3 +12,5 @@ The goal of this project is to redesign and code the Sprite website (https://www
 ## Lessons Learned:
 
 // TODO: share what you learned as you worked on this project
+// 1. Find inspiration to work off of
+// 2. Create gradient background
