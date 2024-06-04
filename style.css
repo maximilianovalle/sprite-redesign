@@ -122,6 +122,7 @@ ul {
     border-radius: 8px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px 2px #008b47;
 }
 
 .sLLink {
@@ -137,4 +138,16 @@ ul {
 .sLLink:hover {
     padding-bottom: 2px;
     border-bottom: solid 2px #ffff;
+}
+
+/* VIDEO ----------------------------- */
+
+.videoInt {
+    width: 1120px;
+}
+
+.ytVideo {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px 2px #008b47;
 }
