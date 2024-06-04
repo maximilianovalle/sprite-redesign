@@ -16,7 +16,6 @@ body {
     margin: 0px auto;
     /* flexbox */
     display: flex;
-    justify-content: space-between;
 }
 
 ul {
@@ -30,6 +29,8 @@ li {
     padding: 4px;
     margin-left: 20px;
     margin-right: 20px;
+    /* flexbox */
+    display: flex;
 }
 
 li:hover {
@@ -42,11 +43,12 @@ li:hover {
 
 .header {
     background-color: #ffff;
-    box-shadow: 0px 2px 5px #6bbb4a;
 }
 
 .headerInt {
     height: 72px;
+    /* flexbox */
+    justify-content: space-between;
 }
 
 .headerLeft {
@@ -89,4 +91,25 @@ li:hover {
     padding-bottom: 2px;
     background-image: url(images/profile-icon-green.png);
     border-bottom: solid 2px #008b47;
+}
+
+/* SUBHEADER ----------------------------- */
+
+.subHeader {
+    background-color: #ffff;
+    box-shadow: 0px 2px 5px #6bbb4a;
+}
+
+.subHeaderInt {
+    height: 100px;
+    /* flexbox */
+    justify-content: center;
+}
+
+.spriteLogo {
+    height: 64px;
+    width: auto;
+    margin: 8px 0px;
+
+    align-self: center;
 }
