@@ -123,7 +123,6 @@ ul {
     border-radius: 20px;
     font-weight: bold;
     background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 4px 2px #008b47;
 }
 
 .sLLink {
@@ -151,7 +150,6 @@ ul {
     border: none;
     border-radius: 20px;
     margin-top: 56px;
-    /* box-shadow: 0px 0px 4px 2px #008b47; */
 }
 
 /* STAY IN THE KNOW ----------------------------- */
@@ -163,7 +161,6 @@ ul {
     margin-bottom: 120px;
     border-radius: 20px;
     background-color: #fff;
-    box-shadow: 0px 0px 4px 2px #6bbb4a;
     /* flexbox */
     justify-content: space-between;
     align-items: center;
