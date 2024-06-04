@@ -21,8 +21,21 @@ body {
 
 ul {
     list-style: none;
+    padding: 0px;
     /* flexbox */
     display: flex;
+}
+
+li {
+    padding: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+li:hover {
+    color: #008b47;
+    padding-bottom: 2px;
+    border-bottom: solid 2px #008b47;
 }
 
 /* HEADER */
@@ -35,18 +48,37 @@ ul {
     height: 72px;
 }
 
+.headerLeft {
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+}
+
 .companyLogo {
     height: 20px;
     width: auto;
+    margin-right: 20px;
     align-self: center;
 }
 
 .headerLinks {
     align-self: center;
+    font-weight: bold;
 }
 
-.profileIcon {
+.profileImage {
+    width: 24px;
     height: 24px;
-    width: auto;
     align-self: center;
+    padding-bottom: 4px;
+
+    background-image: url(images/profile-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.profileImage:hover {
+    padding-bottom: 2px;
+    background-image: url(images/profile-icon-green.png);
+    border-bottom: solid 2px #008b47;
 }
