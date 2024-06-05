@@ -193,14 +193,77 @@ ul {
 
 /* WHATS NEW ----------------------------- */
 
-.whatsNewInt {
-    justify-content: center;
+.whatsNew {
+    margin-bottom: 120px;
 }
 
-.whatsNewTitle{
-    margin: 0px;
+.whatsNewTitle {
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-bottom: 28px;
     padding: 0px;
     color: #fff;
     font-size: 40px;
     font-weight: bold;
+    text-align: center;
+}
+
+.whatsNewInt {
+    max-width: 1120px;
+    /* flexbox */
+    justify-content: space-between;
+}
+
+.card {
+    background-color: #fff;
+    width: 540px;
+    height: 675px;
+    border-radius: 20px;
+}
+
+.card:hover {
+    background-color: #fafafa;
+    box-shadow: 0px 0px 8px 1px #008b47;
+}
+
+.cardImg {
+    width: 540px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.cardText {
+    margin: 0px;
+}
+
+.cardInner {
+    margin: 24px;
+    height: 32%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardSub {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.cardParagraph {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cardLink {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(0, 0, 0); 
+}
+
+.card:hover .cardLink {
+    color: #008b47;
 }
