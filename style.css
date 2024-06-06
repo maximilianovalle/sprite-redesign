@@ -25,27 +25,6 @@ ul {
     display: flex;
 }
 
-.animated:hover {
-    animation-name: var(shake);
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    cursor: pointer;
-}
-
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(1px, 1px) rotate(1deg); }
-    30% { transform: translate(-3px, 0px) rotate(0deg); }
-    40% { transform: translate(3px, 2px) rotate(1deg); }
-    50% { transform: translate(1px, -1px) rotate(-1deg); }
-    60% { transform: translate(-1px, 2px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
 /* HEADER ----------------------------- */
 
 .header {
@@ -132,6 +111,11 @@ ul {
 }
 
 /* SUBLINKS ----------------------------- */
+
+.subLinks {
+    position: sticky;
+    top: 0;
+}
 
 .subLinksInt {
     justify-content: center;
@@ -221,7 +205,7 @@ ul {
 .whatsNewTitle {
     max-width: 1200px;
     margin: 0px auto;
-    margin-bottom: 28px;
+    margin-bottom: 56px;
     padding: 0px;
     color: #fff;
     font-size: 40px;
@@ -288,3 +272,5 @@ ul {
 .card:hover .cardLink {
     color: #5c5c5c;
 }
+
+/* INSTAGRAM ----------------------------- */
