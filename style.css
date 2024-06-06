@@ -159,7 +159,7 @@ ul {
 
 /* STAY IN THE KNOW ----------------------------- */
 
-.knowInt {
+.knowInt, .followInt {
     width: 1120px;
     height: 200px;
     margin-top: 120px;
@@ -171,7 +171,7 @@ ul {
     align-items: center;
 }
 
-.knowText {
+.knowText, .followText {
     color: rgba(0, 0, 0);
     font-size: 40px;
     font-weight: bold;
@@ -274,3 +274,35 @@ ul {
 }
 
 /* INSTAGRAM ----------------------------- */
+
+/* FOLLOW SPRITE ----------------------------- */
+
+.mediaButt {
+    margin-right: 100px;
+}
+
+.xButton, .instaButton, .ytButton, .faceButton {
+    width: 100px;
+    height: 40px;
+    margin: 0px 8px;
+    color: rgba(0, 0, 0);
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 20px;
+}
+
+.xButton {
+    margin-left: 0px;
+}
+
+.faceButton {
+    margin-right: 0px;
+}
+
+.xButton:hover, .instaButton:hover, .ytButton:hover, .faceButton:hover {
+    color: #fff;
+    background-color: #6bbb4a;
+    border-color: #6bbb4a;
+}
