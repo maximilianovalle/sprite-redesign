@@ -20,4 +20,5 @@ I also learned to keep my commit history easier to follow by squashing similar c
 ## Original Website:
 ![Sprite website home page](references/og-website.png)
 
-## My Website: //TODO: ADD MY WEBSITE IMAGE
+## My Website:
+![Sprite website recreation](references/my-website.png)
