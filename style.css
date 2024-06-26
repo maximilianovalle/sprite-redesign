@@ -310,5 +310,77 @@ ul {
 /* FOOTER ----------------------------- */
 
 .footer {
+    padding: 40px 0px;
     background-color: rgba(0, 0, 0);
+}
+
+/* .footerImg {
+    border-bottom: 1px solid #fff;
+} */
+
+.colaLogo {
+    width: auto;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.footerBody {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footerLeft{
+    /* flexbox */
+    display: flex;
+}
+
+.help, .shopVisit, .legal {
+    color: #fff;
+    width: 200px;
+    margin: 40px 0px;
+}
+
+.help, .shopVisit {
+    margin-right: 12px;
+}
+
+.footerLinks {
+    display: block;
+}
+
+.footerLinks li {
+    margin: 14px 0px;
+    font-weight: 700;
+}
+
+.footerSub {
+    font-size: 12px;
+}
+
+.footerLinks {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.footerButt {
+    margin-top: 40px;
+
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.footerCopyright {
+    color: #fff;
+    margin-top: 40px;
+    justify-content: flex-end;
+}
+
+.footerLink {
+    color: #fff;
 }
